@@ -1,63 +1,59 @@
-Lira Protocol
-The modular, event-driven automation layer for Solana and beyond.
+# Lira Protocol
 
-:: Overview
-Lira Protocol brings intelligent, private, and composable automation to Web3.
+**Lira Protocol** is a modular, event-driven automation layer built on **Solana**, designed to enable secure, private, and intelligent execution of onchain workflows.
 
-With intent-based Super-Transactions and an event-driven execution engine, Lira enables onchain processes to run autonomously — triggered by real-world conditions, user-defined logic, or scheduled events.
+With **Super-Transactions**, smart wallets, and a no-code automation copilot, Lira empowers developers and autonomous systems to automate complex operations with minimal effort — all while keeping full control of assets and logic.
 
-Built for developers, DAOs, and autonomous agents, Lira is the infrastructure layer that transforms smart contract automation from a fragmented task into a seamless, verifiable experience.
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Status](https://img.shields.io/badge/status-in%20development-yellow)
 
-:: Core Capabilities
-✅ Event-driven Super-Transactions
+---
 
-✅ Private, MEV-resistant execution
+## Key Features
 
-✅ No-code automation Copilot
+- ✅ **Event-Driven Automation** — Trigger actions based on time, price, contract state, or offchain signals  
+- ✅ **Super-Transactions** — Multi-step operations bundled into a single, composable intent  
+- ✅ **No-Code Copilot** — Natural language workflow builder for developers and non-technical users  
+- ✅ **Smart Wallet Integration** — Secure execution with no custody or private key exposure  
+- ✅ **MEV Protection** — Built-in privacy safeguards and tamper-resistant logic  
+- ✅ **Modular Architecture** — Optimized for long-term scalability and integrations
 
-✅ Smart wallet integration
+---
 
-✅ Composable multi-step logic
+## Use Cases
 
-✅ Onchain workflows with real-world triggers
+- Auto-compounding & DeFi trading logic  
+- Subscription billing & payment streaming  
+- Dynamic contract updates in GameFi or RWA  
+- Permissionless task automation for DAOs and agents  
+- Trustless trigger-based orchestration (alerts, distributions, swaps)
 
-From DeFi to RWA, Lira automates what others still code manually.
+---
 
-:: Core Modules
-Automation Copilot
-AI-powered, natural language automation builder.
-Users describe their intent — Lira compiles the logic.
+## Tech Stack
 
-Event Registry & Execution Engine
-Continuously listens for triggers like time, price, or smart contract state.
-Executes workflows autonomously and concurrently.
+- **Solana** – Execution environment  
+- **Rust** – Protocol logic and performance modules  
+- **TypeScript** – SDKs and front-end tooling  
+- **Smart Wallets** – Modular account abstraction  
+- **Oracle/Trigger Integrations** – For external signals (coming soon)
 
-Smart Wallet Abstraction
-Bundles actions securely through account abstraction.
-No private keys exposed. No custody required.
+---
 
-Super-Transactions
-Intent-based, multi-step workflows bundled into a single, composable operation — from swaps to payments to contract calls.
+## Documentation
 
-:: Technical Stack
-Solana – Execution layer
+Full technical documentation:
 
-TypeScript / Rust – Protocol modules and tooling
+- [Docs](https://lira.gitbook.io/lira/) 
+- [Twitter](https://x.com/LiraProtocol)   
 
-Smart Wallet Standard – Based on modular ERC-6900-like design for Solana
+---
 
-MEV Protection – Native privacy and integrity built in
+## Getting Started
 
-Future Modules – Oracle integrations, intent relays, DAO-triggered automation
-
-:: Status
-Lira is in active development.
-Core protocol logic is being finalized for DevNet.
-SDKs, test interfaces, and full public repo coming soon.
-
-:: Vision
-Automation should be secure, intuitive, and decentralized.
-Lira aims to be the trusted foundation for onchain execution — powering everything from yield optimization and trading logic to governance, payments, and autonomous agents.
-
-Web3 won’t scale without automation.
-Lira makes that automation seamless.
+```bash
+git clone https://github.com/liraprotocol/lira.git
+cd lira
+npm install
+npm run dev
