@@ -1,53 +1,63 @@
-# Lira Protocol 🧩
+Lira Protocol
+The modular, event-driven automation layer for Solana and beyond.
 
-**Lira Protocol** is a modular automation layer for Solana that enables secure, private, and intelligent automation of onchain workflows through event-driven execution and intent-based Super-Transactions.
+:: Overview
+Lira Protocol brings intelligent, private, and composable automation to Web3.
 
-Built for developers, users, and projects that demand seamless automation, Lira empowers Web3 systems to act on real-world conditions — without compromising control, privacy, or scalability.
+With intent-based Super-Transactions and an event-driven execution engine, Lira enables onchain processes to run autonomously — triggered by real-world conditions, user-defined logic, or scheduled events.
 
----
+Built for developers, DAOs, and autonomous agents, Lira is the infrastructure layer that transforms smart contract automation from a fragmented task into a seamless, verifiable experience.
 
-## What is Lira?
+:: Core Capabilities
+✅ Event-driven Super-Transactions
 
-Lira enables **event-driven, no-code automation** of smart contract interactions.
+✅ Private, MEV-resistant execution
 
-Whether you're automating DeFi strategies, recurring payments, reward distributions, or game logic — Lira translates your intent into autonomous execution via secure smart wallets and trigger-based logic.
+✅ No-code automation Copilot
 
-**Core Benefits:**
+✅ Smart wallet integration
 
-- ✅ Intent-based Super-Transactions  
-- ✅ Drag-and-drop no-code interface  
-- ✅ Event-driven triggers (price, time, data)  
-- ✅ Smart wallet integration  
-- ✅ MEV protection & privacy  
-- ✅ No custody, no deposits required
+✅ Composable multi-step logic
 
----
+✅ Onchain workflows with real-world triggers
 
-## Use Cases
+From DeFi to RWA, Lira automates what others still code manually.
 
-- Auto-compounding and DeFi yield optimization  
-- Scheduled or event-based token transfers  
-- Subscription flows and streaming payments  
-- In-game reward drops and dynamic NFT updates  
-- Multi-contract orchestration with one-click deployment
+:: Core Modules
+Automation Copilot
+AI-powered, natural language automation builder.
+Users describe their intent — Lira compiles the logic.
 
----
+Event Registry & Execution Engine
+Continuously listens for triggers like time, price, or smart contract state.
+Executes workflows autonomously and concurrently.
 
-## Architecture Overview
+Smart Wallet Abstraction
+Bundles actions securely through account abstraction.
+No private keys exposed. No custody required.
 
-Lira is composed of:
+Super-Transactions
+Intent-based, multi-step workflows bundled into a single, composable operation — from swaps to payments to contract calls.
 
-1. **Automation Copilot** – An AI-guided workflow builder that converts intent into logic.
-2. **Event Registry** – Tracks user-defined rules and signals across Solana.
-3. **Oracles + Data Streams** – Brings offchain and onchain triggers to life.
-4. **Execution Layer** – Executes transactions via secure, non-custodial smart wallets.
-5. **Super-Transactions** – Bundles logic into a single, composable operation.
+:: Technical Stack
+Solana – Execution layer
 
----
+TypeScript / Rust – Protocol modules and tooling
 
-## Getting Started
+Smart Wallet Standard – Based on modular ERC-6900-like design for Solana
 
-1. Clone this repository  
-```bash
-git clone https://github.com/your-org/lira-protocol.git
-cd lira-protocol
+MEV Protection – Native privacy and integrity built in
+
+Future Modules – Oracle integrations, intent relays, DAO-triggered automation
+
+:: Status
+Lira is in active development.
+Core protocol logic is being finalized for DevNet.
+SDKs, test interfaces, and full public repo coming soon.
+
+:: Vision
+Automation should be secure, intuitive, and decentralized.
+Lira aims to be the trusted foundation for onchain execution — powering everything from yield optimization and trading logic to governance, payments, and autonomous agents.
+
+Web3 won’t scale without automation.
+Lira makes that automation seamless.
